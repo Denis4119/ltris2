@@ -110,8 +110,8 @@ void View::init(string t, uint wmode, bool reinit)
 	createMenus();
 
 	/* set label stuff */
-	lblCredits1.setText(theme.fTooltip, "http://lgames.sf.net");
-	lblCredits2.setText(theme.fTooltip, string("v")+PACKAGE_VERSION);
+	//lblCredits1.setText(theme.fTooltip, "http://lgames.sf.net");
+	//lblCredits2.setText(theme.fTooltip, string("v")+PACKAGE_VERSION);
 
 	/* start demo or reinitialize current game */
 	if (reinit)
